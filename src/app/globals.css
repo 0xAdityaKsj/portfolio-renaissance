@@ -179,3 +179,18 @@ h1 {
   color: var(--sienna);
   line-height: 0.8;
 }
+
+.bg-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  /* Choose one of these options based on your needs: */
+  width: 100%;
+  /* Fixed width */
+  /* or */
+  max-height: 200px;
+  /* Maximum height */
+  object-fit: cover;
+  /* Maintains aspect ratio while covering container */
+}

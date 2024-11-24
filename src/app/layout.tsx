@@ -22,6 +22,7 @@ export default function RootLayout({
       </head>
       <body>
         <Topnav />
+        <img src="/image.png" alt="" className="bg-image compact" />
         {children}
       </body>
     </html>
