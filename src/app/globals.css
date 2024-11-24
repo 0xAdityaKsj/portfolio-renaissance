@@ -154,3 +154,28 @@ h1 {
   background: #1a1a1a;
   cursor: pointer;
 }
+
+/* Minimal Card Layout */
+.card-container {
+  max-width: var(--max-width);
+  margin: 3rem auto;
+}
+
+.card {
+  background: white;
+  border: 1px solid var(--sienna);
+  padding: 2rem;
+}
+
+.card-content {
+  line-height: 1.8;
+}
+
+/* Simplified first letter */
+.first-letter {
+  float: left;
+  font-size: 3.5em;
+  padding-right: 0.1em;
+  color: var(--sienna);
+  line-height: 0.8;
+}
